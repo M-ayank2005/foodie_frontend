@@ -31,10 +31,9 @@ const Carousel = () => {
           >
             <Image
               src={slide}
-              layout="fill"
-              objectFit="cover"
+              fill
+              className="object-cover rounded-lg"
               alt={`Slide ${index + 1}`}
-              className="rounded-lg"
             />
           </div>
         ))}
